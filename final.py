@@ -17,7 +17,7 @@ note = [
     creation_date,
     modification_date,
     [title_1, title_2]
-
+]
 # Вывод данных
 print("\nДанные заметки:")
 print(f"Имя пользователя: {note[0]}")
@@ -26,5 +26,5 @@ print(f"Статус: {note[2]}")
 print(f"Дата создания: {note[3]}")
 print(f"Дата изменения: {note[4]}")
 print("Заголовки:")
-print("Заголовок 1: ", note[5])
-print("Заголовок 2: ", note[6])
+print("Заголовок 1: ", note[5][0])
+print("Заголовок 2: ", note[5][1])
